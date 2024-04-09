@@ -206,6 +206,7 @@ https://github.com/lastlayer/last_layer
 https://github.com/guardrails-ai/guardrails
 https://github.com/protectai/rebuff
 https://github.com/amoffat/HeimdaLLM
+https://github.com/automorphic-ai/aegis
 
 ## References
 
