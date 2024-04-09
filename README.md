@@ -78,6 +78,13 @@ https://kai-greshake.de/posts/approaches-to-pi-defense/
 
 ## Guardrails & Overseers
 
+[OpenAI Cookbook - How to implement LLM guardrails](https://cookbook.openai.com/examples/how_to_use_guardrails)
+> Guardrails are incredibly diverse and can be deployed to virtually any context you can imagine something going wrong with LLMs. This notebook aims to give simple examples that can be extended to meet your unique use case, as well as outlining the trade-offs to consider when deciding whether to implement a guardrail, and how to do it.  
+> This notebook will focus on:  
+>   Input guardrails that flag inappropriate content before it gets to your LLM  
+>   Output guardrails that validate what your LLM has produced before it gets to the customer
+
+
 [Prompt Injection Defenses Should Suck Less, Kai Greshake - Action Guards](https://kai-greshake.de/posts/approaches-to-pi-defense/#action-guards)
 > With action guards, specific high-risk actions the model can take, like sending an email or making an API call, are gated behind dynamic permission checks. These checks analyze the model’s current state and context to determine if the action should be allowed.
 > This would also allow us to dynamically decide how much extra compute/cost to spend on identifying whether a given action is safe or not.
@@ -85,7 +92,6 @@ https://kai-greshake.de/posts/approaches-to-pi-defense/
 
 [Building Guardrails for Large Language Models](https://arxiv.org/html/2402.01822v1)
 > Guardrails, which filter the inputs or outputs of LLMs, have emerged as a core safeguarding technology. This position paper takes a deep look at current open-source solutions (Llama Guard, Nvidia NeMo, Guardrails AI), and discusses the challenges and the road towards building more complete solutions.
-
 
 [NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails](https://arxiv.org/abs/2310.10501)
 > Guardrails (or rails for short) are a specific way of controlling the output of an LLM, such as not talking about topics considered harmful, following a predefined dialogue path, using a particular language style, and more. There are several mechanisms that allow LLM providers and developers to add guardrails that are embedded into a specific model at training, e.g. using model alignment. Differently, using a runtime inspired from dialogue management, NeMo Guardrails allows developers to add programmable rails to LLM applications - these are user-defined, independent of the underlying LLM, and interpretable. Our initial results show that the proposed approach can be used with several LLM providers to develop controllable and safe LLM applications using programmable rails.
