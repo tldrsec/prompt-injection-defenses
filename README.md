@@ -159,6 +159,11 @@ https://doublespeak.chat/#/handbook#llm-enforced-whitelisting
 [Templated Output](https://doublespeak.chat/#/handbook#templated-output)
 > The impact of LLM injection can be mitigated by traditional programming if the outputs are determinate and templated.
 
+[OpenAI - The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://huggingface.co/papers/2404.13208)
+> We proposed the instruction hierarchy: a framework for teaching language models to follow instructions while ignoring adversarial manipulation.
+> The instruction hierarchy improves safety results on all of our main evaluations, even increasing robustness by up to 63%.
+> The instruction hierarchy also exhibits generalization to each of the evaluation criteria that we explicitly excluded from training, even increasing robustness by up to 34%. This includes jailbreaks for triggering unsafe model outputs, attacks that try to extract passwords from the system message, and prompt injections via tool use.
+
 TKTK - Critiques:
 https://doublespeak.chat/#/handbook#naive-last-word 
  
