@@ -2,6 +2,9 @@
 
 This repository centralizes and summarizes practical and proposed defenses against prompt injection.
 
+![image](https://github.com/tldrsec/prompt-injection-defenses/assets/13310971/bf5ad3b5-f0ff-46ea-8c02-02fe75dbc745)
+
+
 - [prompt-injection-defenses](#prompt-injection-defenses)
   - [Blast Radius Reduction](#blast-radius-reduction)
   - [Input Pre-processing (Paraphrasing, Retokenization)](#input-pre-processing-paraphrasing-retokenization)
