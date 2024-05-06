@@ -2,7 +2,13 @@
 
 This repository centralizes and summarizes practical and proposed defenses against prompt injection.
 
-![image](https://github.com/tldrsec/prompt-injection-defenses/assets/13310971/bf5ad3b5-f0ff-46ea-8c02-02fe75dbc745)
+<p align="center">
+  <a href="https://tldrsec.com/subscribe?utm_source=github&utm_medium=promptinjection">
+    <picture>
+      <img src="https://github.com/tldrsec/prompt-injection-defenses/assets/13310971/bf5ad3b5-f0ff-46ea-8c02-02fe75dbc745" alt="tl;dr sec Newsletter"/>
+    </picture>
+  </a>
+</p>
 
 ## Table of Contents
 - [prompt-injection-defenses](#prompt-injection-defenses)
