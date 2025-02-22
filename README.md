@@ -82,7 +82,7 @@ Monitor the inputs and outputs, using traditional and LLM specific mechanisms to
 
 ## Taint Tracking 
 
-A research proposal to mitigate prompt injection by categorizing input as defanging the model the more untrusted the input.
+A research proposal to mitigate prompt injection by categorizing input and defanging the model the more untrusted the input.
 
 |   | Summary |
 | -------- | ------- |
@@ -106,6 +106,7 @@ Use multiple models to provide additional resiliency against prompt injection.
 | -------- | ------- |
 | [Prompt Injection Defenses Should Suck Less, Kai Greshake - Learning from Humans](https://kai-greshake.de/posts/approaches-to-pi-defense/#secure-threads) | Ensemble decisions - Important decisions in human organizations often require multiple people to sign off. An analogous approach with AI is to have an ensemble of models cross-check each other’s decisions and identify anomalies. This is basically trading security for cost. |
 | [PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts](https://arxiv.org/pdf/2306.04528) | one promising countermeasure is the utilization of diverse models, training them independently, and subsequently ensembling their outputs. The underlying premise is that an adversarial attack, which may be effective against a singular model, is less likely to compromise the predictions of an ensemble comprising varied architectures. On the other hand, a prompt attack can also perturb a prompt based on an ensemble of LLMs, which could enhance transferability |
+| [MELON: Indirect Prompt Injection Defense via Masked Re-execution and Tool Comparison](https://arxiv.org/pdf/2502.05174)|Our approach builds on the observation that under a successful attack, the agent’s next action becomes less dependent on user tasks and more on malicious tasks. Following this, we design MELON to detect attacks by re-executing the agent’s trajectory with a masked user prompt modified through a masking function. We identify an attack if the actions generated in the original and masked executions are similar. |
 
 ## Prompt Engineering / Instructional Defense
 
