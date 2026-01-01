@@ -164,6 +164,7 @@ A research proposal to mitigate prompt injection by concatenating user generated
 | [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) | Guardrails | Input/Output Guards that detect, quantify and mitigate the presence of specific types of risks |
 | [whylabs/langkit](https://github.com/whylabs/langkit) | Input Overseer, Output Overseer | open-source toolkit for monitoring Large Language Models |
 | [ibm-granite/granite-guardian](https://github.com/ibm-granite/granite-guardian) | Guardrails | Input/Output guardrails, detecting risks in prompts, responses, RAG, and agentic workflows  |
+| [LocalMod](https://github.com/KOKOSde/localmod) | Input Overseer, Filter, Output Overseer | Self-hosted content moderation with prompt injection detection, toxicity filtering, PII detection, NSFW classification. 100% offline. |
 
 # References
 
