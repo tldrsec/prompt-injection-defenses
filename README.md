@@ -164,6 +164,7 @@ A research proposal to mitigate prompt injection by concatenating user generated
 | [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) | Guardrails | Input/Output Guards that detect, quantify and mitigate the presence of specific types of risks |
 | [whylabs/langkit](https://github.com/whylabs/langkit) | Input Overseer, Output Overseer | open-source toolkit for monitoring Large Language Models |
 | [ibm-granite/granite-guardian](https://github.com/ibm-granite/granite-guardian) | Guardrails | Input/Output guardrails, detecting risks in prompts, responses, RAG, and agentic workflows  |
+| [mthamil107/prompt-shield](https://github.com/mthamil107/prompt-shield) | Input Overseer, Filter, Output Overseer | Open-source prompt injection firewall with 23 detectors (regex + DeBERTa ML), ensemble scoring, self-learning vault, canary tokens, PII redaction, and OWASP LLM Top 10 compliance mapping. Python library with FastAPI/Flask/Django middleware, LangChain/LlamaIndex integrations, and CLI. |
 
 # References
 
