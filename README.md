@@ -160,6 +160,7 @@ A research proposal to mitigate prompt injection by concatenating user generated
 | [protectai/rebuff](https://github.com/protectai/rebuff) | Input Overseer, Canary | prompt injection detector - Heuristics, LLM-based detection, VectorDB, Canary tokens  |
 | [deadbits/vigil](https://github.com/deadbits/vigil-llm) | Input Overseer, Canary | prompt injection detector - Heuristics/YARA, prompt injection detector - Heuristics, LLM-based detection, VectorDB, Canary tokens, VectorDB, Canary tokens, Prompt-response similarity |
 | [NVIDIA/NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Guardrails | open-source toolkit for easily adding programmable guardrails to LLM-based conversational applications |
+| [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) | Input Overseer, Output Overseer, Action Guard | local Rust scanner for AI-agent prompt injection, credential redaction, sensitive-data requests, exfiltration-style text, and dangerous tool-call context with structured JSON verdicts |
 | [amoffat/HeimdaLLM](https://github.com/amoffat/HeimdaLLM) | Output overseer | robust static analysis framework for validating that LLM-generated structured output is safe. It currently supports SQL |
 | [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) | Guardrails | Input/Output Guards that detect, quantify and mitigate the presence of specific types of risks |
 | [whylabs/langkit](https://github.com/whylabs/langkit) | Input Overseer, Output Overseer | open-source toolkit for monitoring Large Language Models |
