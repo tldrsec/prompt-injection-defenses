@@ -164,6 +164,7 @@ A research proposal to mitigate prompt injection by concatenating user generated
 | [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) | Guardrails | Input/Output Guards that detect, quantify and mitigate the presence of specific types of risks |
 | [whylabs/langkit](https://github.com/whylabs/langkit) | Input Overseer, Output Overseer | open-source toolkit for monitoring Large Language Models |
 | [ibm-granite/granite-guardian](https://github.com/ibm-granite/granite-guardian) | Guardrails | Input/Output guardrails, detecting risks in prompts, responses, RAG, and agentic workflows  |
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Preflight Identity Check | Pre-payment agent trust scoring for multi-agent systems — verify on-chain wallet identity and behavioral signals before authorizing tool calls or micropayments |
 
 # References
 
