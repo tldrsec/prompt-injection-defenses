@@ -91,6 +91,7 @@ A research proposal to mitigate prompt injection by categorizing input and defan
 |   | Summary |
 | -------- | ------- |
 | [Prompt Injection Defenses Should Suck Less, Kai Greshake](https://kai-greshake.de/posts/approaches-to-pi-defense/#taint-tracking) | Taint tracking involves monitoring the flow of untrusted data through a system and flagging when it influences sensitive operations. We can apply this concept to LLMs by tracking the “taint” level of the model’s state based on the inputs it has ingested. <br> As the model processes more untrusted data, the taint level rises. The permissions and capabilities of the model can then be dynamically adjusted based on the current taint level. High risk actions, like executing code or accessing sensitive APIs, may only be allowed when taint is low. |
+| [rudratoshs/taintgate](https://github.com/rudratoshs/taintgate) | An open-source implementation of taint tracking for agent tool calls. Tool outputs are recorded as untrusted; before a tool runs, each argument is checked for whether it only ever appeared in untrusted content, and policy rules can then deny the call or require human approval. The strictest matching rule wins (deny > ask > allow). |
 
 ## Secure Threads / Dual LLM
 
