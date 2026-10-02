@@ -178,6 +178,8 @@ A research proposal to mitigate prompt injection by concatenating user generated
 
 ## Papers 
 
+* [DAI: A Domain-Specific LLM with Model-Excluded Authority, Capability-Disjoint Verification, and Recomputable Receipts](https://doi.org/10.5281/zenodo.23089652) — Preprint describing a domain-specific LLM whose outputs are excluded from action admissibility, with capability-disjoint verification and independently recomputable receipts; not an evaluated universal prompt-injection defense.
+* [Autonomous Defensive AI: An Envelope-and-Evidence Framework for Governed LLMs Acting on Production Infrastructure](https://doi.org/10.5281/zenodo.23089594) — Companion preprint describing explicit authority envelopes, deterministic action contracts, bounded execution, and evidence-based review; formal properties depend on the stated assumptions.
 * [Automatic and Universal Prompt Injection Attacks against Large Language Models](https://arxiv.org/abs/2403.04957)
 * [Assessing Prompt Injection Risks in 200+ Custom GPTs](https://arxiv.org/abs/2311.11538)
 * [Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models](https://arxiv.org/abs/2403.04786)
