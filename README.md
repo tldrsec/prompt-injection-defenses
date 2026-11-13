@@ -164,6 +164,7 @@ A research proposal to mitigate prompt injection by concatenating user generated
 | [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) | Guardrails | Input/Output Guards that detect, quantify and mitigate the presence of specific types of risks |
 | [whylabs/langkit](https://github.com/whylabs/langkit) | Input Overseer, Output Overseer | open-source toolkit for monitoring Large Language Models |
 | [ibm-granite/granite-guardian](https://github.com/ibm-granite/granite-guardian) | Guardrails | Input/Output guardrails, detecting risks in prompts, responses, RAG, and agentic workflows  |
+| [HOL Guard](https://hol.org/guard) | Blast Radius Reduction, Action Guard | free, open-source (Apache-2.0) local control layer for AI coding agents: checks shell commands, secret reads, MCP tool calls and package installs before they run, and pauses risky ones for user approval |
 
 # References
 
